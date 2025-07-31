@@ -1,4 +1,3 @@
-package flappybird;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 public class Jframe {
@@ -10,7 +9,7 @@ public class Jframe {
          frame.setResizable(false);
          frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
          frame.setSize(boardwidth,boardlength);
-         ImageIcon image = new ImageIcon("src\\flappybird\\flappybird.png");
+         ImageIcon image = new ImageIcon("./flappybird.png");
          frame.setIconImage(image.getImage());
          
 
